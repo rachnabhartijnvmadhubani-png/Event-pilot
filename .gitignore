@@ -1,0 +1,23 @@
+# Secrets and local environment
+.env
+backend/.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and local databases
+*.log
+*.sqlite
+*.db
+*.pem
+*.ppk
